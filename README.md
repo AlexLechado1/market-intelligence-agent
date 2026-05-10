@@ -1,6 +1,6 @@
 # Market Intelligence Agent
 
-An autonomous AI agent that generates McKinsey-grade market intelligence reports from a single natural language brief. It orchestrates 7 real-time data sources, synthesizes findings using Claude (Anthropic), and delivers a structured analysis in both Markdown and PowerPoint format.
+An autonomous AI agent that generates Strategy&-grade market intelligence reports from a single natural language brief. It orchestrates 7 real-time data sources, synthesizes findings using Claude (Anthropic), and delivers a structured analysis in both Markdown and PowerPoint format.
 
 Built to demonstrate enterprise AI deployment patterns relevant to Deployment Strategist roles at AI-first companies.
 
