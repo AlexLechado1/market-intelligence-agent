@@ -1,9 +1,8 @@
 # Market Intelligence Agent
 
-An autonomous AI agent that generates Strategy&-grade market intelligence reports from a single natural language brief. It orchestrates 7 real-time data sources, synthesizes findings using Claude (Anthropic), and delivers a structured analysis in both Markdown and PowerPoint format.
+An autonomous AI agent that generates Strategy&-grade market intelligence reports from a single natural language brief. It orchestrates 10+ real-time data sources, synthesizes findings using Claude (Anthropic), and delivers a structured analysis in both Markdown and PowerPoint format.
 
-Built to demonstrate enterprise AI deployment patterns relevant to Deployment Strategist roles at AI-first companies.
-
+Built to demonstrate that many consulting project tasks (example: commercial due diligence, market entry projects, GTM strategy, etc.) can be optimized
 ---
 
 ## What it does
@@ -23,7 +22,7 @@ The agent autonomously:
 6. Queries **agricultural production and trade flows** (FAOSTAT)
 7. **Synthesizes everything** into a structured report using Claude as the reasoning layer
 
-Output: a `report.md` with full analysis + a `report.pptx` with consulting-style slides.
+Output: a `report.md` with full analysis + a `report.pptx` with strategy& consulting-style slides templates.
 
 ---
 
@@ -65,7 +64,7 @@ Phase 3 (30–60m): Branded consumer launch, protein-forward positioning
 
 ## Why I built this
 
-At Strategy& (PwC) I spent two years producing exactly this kind of analysis manually — pulling data from Bloomberg, Euromonitor, and internal databases, then synthesizing into client deliverables. A senior analyst spends 60–70% of their time on data gathering and formatting, not on the actual strategic thinking.
+At Strategy& (PwC) I spent three years producing exactly this kind of analysis manually — pulling data from Bloomberg, Euromonitor, and internal databases, then synthesizing into client deliverables. A senior analyst spends 60–70% of their time on data gathering and formatting, not on the actual strategic thinking.
 
 This agent compresses that data-gathering layer from days to minutes, letting the analyst focus on judgment and recommendations. That's the value proposition of AI deployment in professional services — and this project is a working proof of concept.
 
